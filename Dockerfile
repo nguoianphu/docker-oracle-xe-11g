@@ -1,6 +1,6 @@
 FROM ubuntu:14.04.1
 
-MAINTAINER Wei-Ming Wu <wnameless@gmail.com>
+MAINTAINER Nguoi An Phu <nguoianphu@gmail.com>
 
 ADD assets /assets
 RUN /assets/setup.sh
