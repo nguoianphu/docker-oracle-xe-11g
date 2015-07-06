@@ -6,15 +6,20 @@ This Dockerfile is a trusted build of Docker Registry.
 
 ### Installation
 
-``` docker pull nguoianphu/docker-oracle-xe-11g ```
+```
+docker pull nguoianphu/docker-oracle-xe-11g
+```
 
 ### Run with ports 22 and 1521 on container AND map them to ports 49160 and 49161 on host machine:
 
-``` docker run -d -p 49160:22 -p 49161:1521 nguoianphu/docker-oracle-xe-11g ```
+``` 
+docker run -d -p 49160:22 -p 49161:1521 nguoianphu/docker-oracle-xe-11g 
+```
 
 ### Connect database with following setting:
 
-``` hostname: localhost
+```
+hostname: localhost
 port: 49161
 sid: xe
 username: system
@@ -26,7 +31,8 @@ password: oracle
 
 ### Login by SSH
 
-``` ssh root@localhost -p 49160
+``` 
+ssh root@localhost -p 49160
 password: admin
 ```
 
@@ -34,7 +40,9 @@ password: admin
 
 Search, download and install this
 
-```Oracle Database 11g Release 2 Client (11.2.0.1.0) for Microsoft Windows```
+```
+Oracle Database 11g Release 2 Client (11.2.0.1.0) for Microsoft Windows
+```
 
 Open
 
@@ -42,7 +50,8 @@ Open
 
 Add this
 
-``` xe =
+```
+xe =
   (DESCRIPTION =
    # (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.59.103)(PORT = 49161))
     (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.59.103)(PORT = 49161))
