@@ -1,5 +1,7 @@
 ## Oracle Express Edition 11g Release 2 on Ubuntu 14.04.1 LTS
 
+[![Build Status](https://travis-ci.org/nguoianphu/docker-oracle-xe-11g.svg?branch=master)](https://travis-ci.org/nguoianphu/docker-oracle-xe-11g) [![](https://images.microbadger.com/badges/image/nguoianphu/docker-oracle-xe-11g.svg)](http://microbadger.com/images/nguoianphu/docker-oracle-xe-11g "Get your own image badge on microbadger.com")
+
 #### Cloned from wnameless/oracle-xe-11g
 
 This Dockerfile is a trusted build of Docker Registry.
